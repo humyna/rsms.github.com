@@ -6,9 +6,9 @@ title: Archive
 
 <form action="http://www.google.com/cse" id="cse-search-box">
   <p>
-    <input type="hidden" name="cx" value="006553118601910168903:-x3qflztwei" />
+    <input type="hidden" name="cx" value="017391129284672411347:bmqjgqnrcng" />
     <input type="hidden" name="ie" value="UTF-8" />
-    <input type="text" name="q" id="cse-search-field" placeholder="Search Rasmus' stuff" />
+    <input type="text" name="q" id="cse-search-field" placeholder="Search Huntout' stuff" />
     <!--input type="submit" name="sa" value="Search" id="cse-search-button" /-->
   </p>
 </form>
@@ -16,6 +16,7 @@ title: Archive
 <script type="text/javascript">
 var search_field = document.getElementById('cse-search-field');
 search_field.style.background = null;
+search_field.style.padding = "0.5em 1em";
 if (window.rsmsHostIsIOS) {
   search_field.type = 'search';
 } else {
@@ -33,8 +34,6 @@ search_field.addEventListener('blur', function (ev) {
   font-size: inherit;
   font-family: helvetica, sans-serif;
   padding:0.5em 1em;
-}
-#cse-search-field {
   border:2px solid #ddd;
   border-radius: 90px;
 }
