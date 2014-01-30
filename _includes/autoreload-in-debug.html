@@ -1,4 +1,4 @@
-{% if site.safe == false %}
+{% unless site.safe %}
 <!-- During authoring, this automatically reloads the post as its changing -->
 <script type="text/javascript">
 (function() {
@@ -38,4 +38,4 @@ function check() {
 check();
 })();
 </script>
-{% endif %}
+{% endunless %}

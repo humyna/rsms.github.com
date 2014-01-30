@@ -1,3 +1,4 @@
+{% if site.safe %}
 {% unless page.no_comments %}
 <!-- Duoshuo Comment BEGIN -->
 <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}"></div>
@@ -16,3 +17,4 @@ var duoshuoQuery = {
 </script>
 <!-- Duoshuo Comment END -->
 {% endunless %}
+{% endif %}
