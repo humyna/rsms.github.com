@@ -9,12 +9,13 @@ My name is Huntout Zhang. I'm a Chinese senior software engineer living in Beiji
 
 ## Elsewhere
 
-You can find me on a variety of world wild interweb sites where my username is usually "huntout".
+You can find me on a variety of world wild interweb sites where my username is usually "***huntout***".
 
-- [Twitter](http://twitter.com/huntout) — a good way to make contact
+- [Weibo](http://weibo.com/huntout) · [Twitter](http://twitter.com/huntout) — a good way to make contact
 - [GitHub](https://github.com/huntout) — code, juicy code
 - [Instagram](http://instagram.com/huntout/) — short stories via photo snapshots
 - [Flickr](http://www.flickr.com/photos/huntout/) — photography
 - [Facebook](http://www.facebook.com/huntout) — friends and foes
 
-### [<img src="/res/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle"> @huntout](http://twitter.com/huntout)
+### [<img src="http://www.sinaimg.cn/blog/developer/wiki/LOGO_32x32.png" width="29" height="29" style="display:inline-block;vertical-align:middle">](http://weibo.com/huntout) · [<img src="/res/twitter.png" width="29" height="20" style="display:inline-block;vertical-align:middle">](http://twitter.com/huntout) @huntout
+
