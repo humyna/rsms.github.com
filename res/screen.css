@@ -42,9 +42,9 @@ div.breaker { clear:both; }
 p, ul, ol, pre, blockquote, hr, object { margin: 1em 0; }
 pre, code, tt {
   -webkit-font-smoothing: subpixel-antialiased;
-  font-family: 'M+ 1mn', 'Consolas', monospace;
-  font-weight: 500;
-  font-size: 11px;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-weight: normal;
+  font-size: 10px;
 }
 img { border:none; vertical-align:bottom; }
 strong { font-weight:bold; }
@@ -171,7 +171,7 @@ div.content.photo {
     border: 1px solid #d9d9d9;
     border-radius: 3px;
     padding: 6px 10px;
-    line-height: 1.4;
+    line-height: 1.5;
     white-space: pre;
     overflow-x: auto;
     word-break: inherit;
