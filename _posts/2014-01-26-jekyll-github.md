@@ -83,7 +83,9 @@ comments: yes
 
 - Install Pygments
 
-  `C:\>easy_install Pygments`
+  ```
+  C:\>easy_install Pygments
+  ```
 
   ```diff
 --- C:\Ruby193\lib\ruby\gems\1.9.1\gems\pygments.rb-0.5.4\lib\pygments\popen.rb
@@ -102,7 +104,9 @@ comments: yes
 
 - Install bundler
   
-  `C:\>gem install bundler`
+  ```
+  C:\>gem install bundler
+  ```
 
 - Create your Github Pages repository
   - Fork [huntout.github.io](https://github.com/huntout/huntout.github.io)
@@ -111,7 +115,9 @@ comments: yes
 
 - Clone `yourname.github.io` to locale
 
-  `C:\>git clone git@github.com:yourname/yourname.github.io.git`
+  ```
+  C:\>git clone git@github.com:yourname/yourname.github.io.git
+  ```
 
 - Bundle
   
@@ -150,4 +156,4 @@ comments: yes
      end
   ```
 
-__Enjoy it!__
+**Enjoy it!**
