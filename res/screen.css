@@ -44,7 +44,7 @@ pre, code, tt {
   -webkit-font-smoothing: subpixel-antialiased;
   font-family: 'M+ 1mn', 'Consolas', monospace;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
 }
 img { border:none; vertical-align:bottom; }
 strong { font-weight:bold; }
@@ -167,11 +167,11 @@ div.content.photo {
 
   div.content pre {
     color: black;
-    background-color: #f3f6f9;
+    background-color: #f8f8f8;
     border: 1px solid #d9d9d9;
     border-radius: 3px;
     padding: 6px 10px;
-    line-height: 23px;
+    line-height: 1.4;
     white-space: pre;
     overflow-x: auto;
     word-break: inherit;
@@ -179,17 +179,17 @@ div.content.photo {
   }
   div.content code {
     color: black;
-    background-color: #f3f6f9;
+    background-color: #f8f8f8;
     border: 1px solid #d9d9d9;
     border-radius: 3px;
     padding: 0 0.3em;
-    margin: 0 0.1em;
   }
   div.content pre > code {
-    padding:0;
-    background-color:transparent;
-    border:none;
+    color: black;
+    background-color: transparent;
+    border: none;
     border-radius: none;
+    padding: 0;
   }
 
   div.content *:target { background:#fe0; }
@@ -446,7 +446,7 @@ pre .dec { color: #606; }
   pre .atv { color: #060; }
 }
 
-.highlight { background-color: #ffffcc }
+.highlight { background-color: #f8f8f8 }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #000000; font-weight: bold } /* Keyword */
