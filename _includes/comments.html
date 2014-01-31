@@ -1,7 +1,6 @@
-{% if site.safe %}
 {% unless page.no_comments %}
 <!-- Duoshuo Comment BEGIN -->
-<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}"></div>
+<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-image="http://huntout.me{{ page.photo_url }}" data-url="http://huntout.me{{ page.url }}"></div>
 <script type="text/javascript">
 var duoshuoQuery = {
   short_name: "huntout"
@@ -17,4 +16,3 @@ var duoshuoQuery = {
 </script>
 <!-- Duoshuo Comment END -->
 {% endunless %}
-{% endif %}
