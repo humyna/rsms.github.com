@@ -74,11 +74,14 @@ layout: default
       col_width, col0_y, col1_y, col1_x,
       origin = {x:0, y:0}, node_count = 0, is_col0, row0_max_y;
 
-  posts.style.position = (window.__post_grid_width <= 680) ? null : 'relative';
+  posts.style.position = (window.__post_grid_width <= 680) ? 'static' : 'relative';
 
   for (k in child_nodes) {
+    if (k === 'length') {
+      continue;
+    }
     node = child_nodes[k];
-    if (node.nodeType === Node.ELEMENT_NODE) {
+    if (node.nodeType === /*Node.ELEMENT_NODE*/1) {
       if (node.className === 'breaker') {
         if (window.__post_grid_width <= 680) {
           node.style.height = null;
@@ -103,7 +106,7 @@ layout: default
         } else {
           if (window.__post_grid_width <= 680) {
             // console.log('Clear');
-            node.style.position = null;
+            node.style.position = 'static';
             node.style.width = null;
             node.style.left = null;
             node.style.top = null;
