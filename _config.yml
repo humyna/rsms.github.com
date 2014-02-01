@@ -1,7 +1,7 @@
 port: 3000
 pygments: true
 lsi: false
-permalink: /:year/:month/:day/:title.html
+permalink: pretty
 # paginate: 50
 markdown: redcarpet
 
