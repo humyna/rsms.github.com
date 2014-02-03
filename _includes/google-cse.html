@@ -20,10 +20,10 @@ if (window.agentIsIOS) {
   search_field.select();
   search_field.focus();
 }
-if (!search_field.addEventListener) {
-    search_field.attachEvent("onblur", clearBackground);
-} else {
+if (search_field.addEventListener) {
     search_field.addEventListener("blur", clearBackground, false);
+} else {
+    search_field.attachEvent("onblur", clearBackground);
 }
 </script>
 <style type="text/css">
