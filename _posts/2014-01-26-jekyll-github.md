@@ -111,7 +111,7 @@ comments: yes
   ```
 
 - Create your Github Pages repository
-  - Fork [huntout.github.io](https://github.com/huntout/huntout.github.io)
+  - Fork [rsms.github.com](https://github.com/huntout/rsms.github.com)
   - Rename repository to `yourname.github.io`
   - Edit `CNAME` to match your domain
 
